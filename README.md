@@ -1,1 +1,10 @@
 # 2D_to_3D_Converter_using_MiDas_Open3Ds
+
+## This process is about convering 2d image to 3d cloud points
+## Done using MiDas (models for computing relative depth from a single image) which converts the 2d image to depth map 
+## and the 3d map is fed as input to Open3D which converts depth map and RGB image to 3d cloud points
+
+2D image from Camera
+Image converted to depth map using MiDas
+RGB & depth map image are converted to 3d cloud points using Open3D
+![image](https://github.com/Kamalesh9483/2D_to_3D_Converter_using_MiDas_Open3Ds/assets/80197808/386df7c7-1acc-420e-9152-d04a4b0ab342)
